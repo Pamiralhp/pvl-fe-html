@@ -1,0 +1,14 @@
+
+table{
+    border: black 1px solid;
+}
+td{background-color: rgb(220, 152, 204);
+    border: black 1px solid
+}
+th{ width: 30px;
+    background-color: rgb(153, 78, 163);
+    border: black 1px solid
+    
+}
+th{color: aliceblue;}
+h2{color: black;}

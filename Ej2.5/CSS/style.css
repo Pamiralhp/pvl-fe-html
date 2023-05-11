@@ -1,0 +1,11 @@
+
+table{
+    border: black 1px solid;
+}
+td{background-color: aliceblue;
+    border: black 1px solid
+}
+th{background-color: rgb(240, 245, 182);
+    border: black 1px solid
+}
+h2{color: black;}
