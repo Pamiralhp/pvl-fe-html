@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form name="formulario" onsubmit="validation()" action="confirmation.php" method="post">
+        <div class="row">
+            <label for="nombre"> Nombre:</label>
+            <input type="text" onkeyup="validarNombre()" name="nombre" id="nombre" placeholder="Introducir nombre" minlength="2" maxlength="30"
+            required pattern="[a-zA-Z\s]+">
+            <div class="error" id="errorNombre"></div>
+        </div>
+        <div class="row">
+            <label for="email"> Email:</label>
+            <input type="email" onkeyup="validarEmail()" name="email" id="email" placeholder="Introducir email" required>
+            <div class="error" id="errorEmail"></div>
+        </div>
+        <div class="row">
+            <label for="tel"> Tel:</label>
+            <input type="tel" onkeyup="validarTel()" name="tel" id="tel" placeholder="Introducir email" required>
+            <div class="error" id="errorTel"></div>
+        </div>
+        <div class="row">
+            <label for="Genero"></label>
+            <div>
+                <label value="male"><input type="radio">Male</label>
+                <label value="female"><input type="radio">Female</label>
+                <label value="others"><input type="radio">Others</label>
+            </div>
+        </div>
+        <input type="submit" value="Send">
+    </form>
+    <script src="./js/script.js"></script>
+</body>
+</html>
