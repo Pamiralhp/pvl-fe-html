@@ -1,0 +1,92 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Verde {
+    color: green;
+}
+
+.Naranja {
+    color: orangered;
+}
+
+.centrar {
+    align-items: center;
+    text-align: center;
+}
+
+.Bienvenido {
+    color: green;
+    margin-left: 20px;
+    border-bottom: gray 1px solid;
+    margin-right: 20px;
+}
+
+p {
+    margin-left: 20px ;
+}
+
+.centro {
+    background: linear-gradient(to bottom right, rgb(238, 236, 236), rgb(253, 253, 253));
+    border: rgb(195, 195, 195) 1px solid;
+    margin-left: 20px;
+    float: left;
+    width: 80%;
+}
+
+.navbar {
+    float: left;
+}
+
+.verdecito {
+    background: linear-gradient(to bottom right, rgb(36, 231, 72), rgb(253, 253, 253));
+    width: 100px;
+    height: 30px;
+    background-color: rgb(63, 237, 63);
+    border: black 1px solid;
+    text-align: center;
+}
+
+.marron {
+    background: linear-gradient(to bottom right, rgb(255, 157, 0), rgb(245, 216, 143));
+    width: 100px;
+    height: 30px;
+    border: black 1px solid;
+    text-align: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: -5px 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+.marron:hover {
+    width: 100px;
+    height: 30px;
+    background-color: brown;
+    border: black 1px solid;
+    text-align: center;
+}
+
+.verdecito:hover {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(19, 118, 19);
+    border: black 1px solid;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+}
+

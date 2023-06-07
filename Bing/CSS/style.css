@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    background-image: url(./img/daily-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.burger {
+    width: 2%;
+    margin-left: 2%;
+}
+
+.reward {
+    width: 2%;
+    margin-left: 2%;
+}
+
+.account {
+    width: 2%;
+    margin-left: 1%;
+}
+
+.microsoft {
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.a1 {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+}
+
+.a2 {
+    margin-left: 5%;
+    margin-top:2%;
+}
+
+.buscador {
+    border: red 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.buscador1 {
+    margin-top: 30vh;
+    width: 70vh;
+    height: 8vh;
+}
+
+.carrusel {
+    border-top: 10vh;
+    border: blue 1px solid;
+    height: 200px;
+}
+
+.info {
+    border: green 1px solid;
+}
+
+.footer {
+    border: black 1px solid;
+    height: 11.5vh;
+}
+
+.down {
+    width: 5vh;
+}
+
+.left {
+    margin-right: 0;
+    width: 5vh;
+}
+
+.right {
+    width: 5vh;
+}
+
+.location {
+    margin-left: 180vh;
+    width: 5vh;
+}
+
+.img1 {
+    width: 40vh;
+}
+
+.img2 {
+    width: 63vh;
+}
+
+.img3 {
+    width: 40vh;
+}
+
+.img4 {
+    width: 34vh;
+}

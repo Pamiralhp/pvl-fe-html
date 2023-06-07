@@ -1,0 +1,25 @@
+{
+  "nombre": "Pavel Hernandez",
+  "email": "pamiralhp@gmail.com",
+  "edad": 27,
+  "works": [
+    {
+      "empresa": "Ayo",
+      "ubicacion": "Barcelona",
+      "start": "02-03-2020",
+      "end": "03-02-2020"
+    },
+    {
+      "empresa": "ayo",
+      "ubicacion": "barcelona",
+      "start": "02-03-2020",
+      "end": "03-02-2020"
+    }
+    
+  ],
+  "soft_skills":[
+        "creativo",
+        "dinamico",
+        "perseverante"
+  ]
+}

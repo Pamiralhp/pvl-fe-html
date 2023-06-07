@@ -1,0 +1,23 @@
+body {
+  background-color: white;
+  color: black;
+}
+.material-symbols-outlined {
+    color: rgb(0, 0, 0);
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+    .p {
+      color: white;
+    }
+    .material-symbols-outlined {
+        color: rgb(255, 255, 255);
+    }
+  }

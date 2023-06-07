@@ -1,0 +1,20 @@
+#encabezado{
+    text-align: center;
+    font-style: initial;
+    color: rgb(234, 201, 91);
+}
+#imagen{
+    width: 100%;
+}
+
+#menu{
+    float: left;
+}
+
+#texto{
+    float: left;
+    border: rgb(33, 33, 33) 1px solid;
+    background-image: linear-gradient( rgba(205, 205, 205),rgb(205, 205, 205, 0) , rgb(205, 205, 205) );
+    margin-left: 20vw;
+    margin-right: 5vw;
+}

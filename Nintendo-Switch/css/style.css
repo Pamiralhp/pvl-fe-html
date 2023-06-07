@@ -1,0 +1,74 @@
+#container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+#carcasa{ 
+    height: 300px;
+    width: 700px;
+    border-radius: 40px;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 500px 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#pantalla{
+    grid-column: 2 / 4;
+    grid-row: 1 / 4;
+    height: 250px;
+    width: 470px;
+    background-image:url(https://i.ytimg.com/vi/m4TEQBZ3M_w/maxresdefault.jpg);
+    border: rgba(0, 0, 0, 0.822) 15px solid;
+}
+
+.controles{
+    display: grid;
+    height: 300px;
+    width: 100px;
+    grid-template-rows: 35px 105px 105px 55px;
+    grid-template-columns: 100px;
+    margin-top: px;
+}
+
+#joyconR{
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+    background-color: rgb(0, 162, 255);
+    border-radius: 0px 50px 30px 0px;
+    
+}
+#joyconL{
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    background-color: rgb(205, 31, 31);
+    border-radius: 50px 0px 0px 30px;
+}
+.joy-stick{
+    border: rgb(29, 28, 28) solid 10px;
+    border-radius: 100%;
+    margin-right: 3px;
+    justify-self: center;
+    align-self: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(48, 48, 48);
+}
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+div.options{ 
+margin-top: 5px;
+}
+#menos{
+    margin-top: 20px;
+    justify-self: end;
+}
