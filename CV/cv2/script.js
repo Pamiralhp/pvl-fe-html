@@ -14,26 +14,30 @@ fetch("datos.json")
     email.textContent = respuesta.email;
     edad.textContent = respuesta.edad;
 
-    let elemento = document.getElementById("caja");
 
     let col = Object.keys(respuesta.works[0]);
-    let thead = document.createElement("thead");
-    let tr = document.createElement("tr");
+    let thead = document.createElement("th");
+    let row = document.createElement("tr");
+    thead.textContent = "empresa";
+    row.appendChild(thead);
+    
+    
+
 
     col.forEach((element) => {
       let th = document.createElement("th");
       th.innerText = element;
-      tr.appendChild(th);
+      row.appendChild(th);
     });
 
-    thead.appendChild(tr);
-    tabla.append(tr);
     body.appendChild(cabecera);
     body.appendChild(container);
     cabecera.appendChild(nombre);
     cabecera.appendChild(email);
     cabecera.appendChild(edad);
-    elemento.appendChild(tabla);
+    container.appendChild(tabla)
+    caja.appendChild(row);
+    caja.appendChild(thead);
   })
   .catch((error) => {
     console.error("Error al cargar el archivo: ", error);
