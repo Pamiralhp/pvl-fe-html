@@ -1,0 +1,19 @@
+button{
+    font-size: xxx-large;
+    background-color: rgb(115, 150, 150);
+    width: 15vw;
+    height: 15vw;
+}
+
+#container{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 40lvw;
+    margin: auto;
+}
+
+input{
+    font-size: xx-large;
+    width: 20vw;
+    height: 3vw;
+}

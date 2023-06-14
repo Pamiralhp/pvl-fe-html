@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+  <button onclick="colorFondo()"> Crear li</button>
+<div>div1</div>
+<div>div3</div>
+<div>div2</div>
+<div>div4</div>
+
+
+<script>
+  function colorFondo(color = "#FF5733") {
+    let posi = Math.floor(Math.random()* 3) + 1;
+    let d = document.getElementsByTagName("div");
+        d[posi].style.backgroundColor = color;
+    }
+  </script>
+</body>
+</html>

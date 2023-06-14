@@ -6,15 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <form name="formulario" onsubmit="return validation()" action="confirmation.php" method="post">
         <div class="row">
             <label for="nombre">Nombre:</label>
-            <input type="text" onkeyup="validarNombre()" id="nombre" class="nombre" name="nombre" placeholder="Introducir nombre" minlength="2"
-                maxlength="30" required pattern="[a-zA-Z\s]+">
+            <input type="text" onkeyup="validarNombre()" id="nombre" class="nombre" name="nombre">
             <div class="error" id="errorNombre"></div>
         </div>
         <div class="row">
@@ -55,8 +54,8 @@
         <div class="row">
             <label>GRPD</label>
             <div>
-                <label><input type="checkbox" onmouseup="validarGRPD()" name="grpd" value="grpd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt incidunt nulla neque voluptate cupiditate totam?</label>
-               
+                <label><input type="checkbox" name="grpd" onclick="validarGRPD()" value="grpd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt incidunt nulla neque voluptate cupiditate totam?</label>
+                <div class="error" id="errorGRPD"></div>
             </div>
         </div>
 
@@ -65,4 +64,5 @@
     </form>
     <script src="./js/script.js"></script>
 </body>
+
 </html>
