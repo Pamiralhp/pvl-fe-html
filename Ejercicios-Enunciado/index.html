@@ -7,19 +7,36 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+<h1>Galería de imágenes</h1>
   
-  <button onclick="colorFondo()"> Crear li</button>
-<div>div1</div>
-<div>div3</div>
-<div>div2</div>
-<div>div4</div>
-
-
-<script>
-  function colorFondo(color = "#FF5733") {
-    let posi = Math.floor(Math.random(0)* 5) - 1;
-    let d = document.getElementsByTagName("div");
-        d[posi].style.backgroundColor = color;
+  <div id="gallery">
+    <img id="mainImage" src="" alt="Imagen grande">
+    <br>
+    <div id="thumbnails">
+      <a class="thumbnail" href="#" onclick="changeImage('image1.jpg')">
+        <img src="https://th.bing.com/th/id/R.241c4ca4ce921e6ecdd8c3065e2e817c?rik=0vAF4gGdUOYPCg&riu=http%3a%2f%2f2.bp.blogspot.com%2f-D1N7C-k7igg%2fT6mdtLeC9fI%2fAAAAAAAAcX8%2fTWNmjUrF4-w%2fs1600%2fLos-mas-Hermosos-Paisajes-Naturales_18.jpg&ehk=zZJxGpRQ%2fd38wdqv1y7mlsQOWzdYqvGv%2fWKuijyUaJQ%3d&risl=&pid=ImgRaw&r=0" alt="Miniatura 1">
+      </a>
+      <a class="thumbnail" href="#" onclick="changeImage('image2.jpg')">
+        <img src="https://th.bing.com/th/id/OIP.fPh5YzaqtIGOSXCneRg9bgHaEK?pid=ImgDet&rs=1" alt="Miniatura 2">
+      </a>
+      <a class="thumbnail" href="#" onclick="changeImage('image3.jpg')">
+        <img src="https://4.bp.blogspot.com/-Imh-wjTJoLQ/UtL0ednyuQI/AAAAAAAAY2g/YPkh9qzvlbU/s1600/240773.jpg" alt="Miniatura 3">
+      </a>
+    </div>
+  </div>
+  
+  <script>
+    function changeImage(imageUrl) {
+      var mainImage = document.getElementById('mainImage');
+      thumbnails.forEach(thumbnail => { 
+  thumbnail.addEventListener('click', () => {
+    
+    mainImage.src = imagen1;
+    let imgen1 = thumbnail.dataset;
+    let enlace = largeImage.dataset.src;
+    thumbnail.dataset.src = enlace;
+    largeImage.dataset.src = imgen1;
+  });
     }
   </script>
 </body>
